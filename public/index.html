@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Demo Yplay</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./webOSTVjs-1.1.0/webOSTV.js" charset="utf-8"></script>
+	<script src="./webOSTVjs-1.1.0/webOSTV-dev.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./pages/login/styles.css">
+  </head>  
+  <body class="flex">
+    <div class="banner">
+      <div class="logoContent">
+         <image src="./images/logo-accorinvest-branco.png" style=" height: 40px; margin-left: 40px; margin-top: 30px; object-fit: contain;"></image>
+      </div>
+      <image src="./images/bgd_movies.png" style="width: 100%; height: 100%; object-fit: cover"></image>
+    </div>
+
+    <div class="formContainer toolbar">
+      <div id="campo1" class="formTitle formSizes">
+        <h1>Entrar</h1>
+      </div>
+
+      <div class="formInputs formSizes">
+          <input id="input-username" class="form-field selected" type="text" placeholder="Usuario">
+          <input id="input-password" class="form-field selected" type="password" placeholder="Senha">
+          <button id="campo4" class="selected" onclick="loginMotv()">Entrar</button>
+          <p id="result1"></p>
+          <p id="result2"></p>
+      </div>
+
+      <div id="unavailable" class="formLine formSizes">
+        <div  class="line"></div>
+        <p>OU</p>
+        <div class="line"></div>
+      </div>
+      
+      <div id="campo6" class="formQrCode formSizes">
+      	<button class="selected cfg">
+          <div class="buttonQr">
+            <div class="formQrCodeIcon">
+              <image src="./images/qr-code.png" style="width: 60%; margin: 12px 0px 0px 0px; filter: drop-shadow(5px 6px 4px #000);"></image>
+            </div>
+            <h4>Login via QR Code</h4>      	
+          </div>
+      	</button>
+      </div>
+
+    </div>
+    <script src="./js/key_control/script.js"></script>
+    <script src="./js/moTV/loginCalls/login.js"></script>
+    <script src="./js/validation/checklogin.js"></script>
+  </body>
+</html>

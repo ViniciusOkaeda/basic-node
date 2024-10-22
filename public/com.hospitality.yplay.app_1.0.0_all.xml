@@ -1,0 +1,22 @@
+<service>
+<setup>
+<versionNumber>2</versionNumber>
+<modelName>55US660H0SD</modelName>
+<priority>NORMAL</priority>
+<appList>
+	<subversionNumber>2</subversionNumber>
+	<content>
+	<type>IPK_FIRMWARE</type>
+	<data>com.hospitality.yplay.app_1.0.0_all.ipk</data>
+	<appTitle>Hospitality Yplay</appTitle>
+	<appId>com.hospitality.yplay.app</appId>
+	<appSignature>0</appSignature>
+	<appVersion>1.0.0</appVersion>
+	<visible>1</visible>
+	<frequency>2059</frequency>
+	<programNum>0</programNum>
+	<cTag>1</cTag>
+	</content>
+</appList>
+</setup>
+</service>

@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+	width: 1920px;
+	height: 1080px;
+    overflow: auto;
+    background-color: rgba(29, 32, 33, 1);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 2px 2px rgba(94, 94, 94, 0.3);
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px rgba(94, 94, 94, 0.3);
+
+}
+
+h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    color: rgb(210, 210, 210);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h6 {
+    color: rgb(204, 204, 204);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*
+    */
+}
+
+.vdConf {
+    position: fixed;
+}
+
+
+button {
+    border: none;
+    font-size: 20px;
+    height: 65px;
+	background-color: #494a4a;
+	border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.bannerRatingL {
+    background-color: #569b49;
+}
+
+.bannerRating10 {
+    background-color: #5891cd;
+}
+.bannerRating12 {
+    background-color: #f0cc17;
+}
+.bannerRating14 {
+    background-color: #d67c1c;
+}
+.bannerRating16 {
+    background-color: #c1131e;
+}
+.bannerRating18 {
+    background-color: #1c1b19;
+}
+
+.selectedCategoryCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    transform: scale(1.1);
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.selectedGuideCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.selectedLeftCategoryCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    transform: scale(1.1);
+    opacity: 1;
+    display: block;
+    position: relative;
+    
+
+
+}
+.selectedRightCategoryCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    transform: scale(1.1);
+    opacity: 1;
+    display: block;
+    position: relative;
+    
+
+
+}
+.selectedBottomCategoryCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    transform: scale(1.1);
+    opacity: 1;
+    display: block;
+    position: relative;
+    
+
+
+}
+
+.focusinitial{
+    position: relative;
+    left: -320px;
+}
+
+.removeMarg {
+    margin-left: -300px;
+}
+
+.selectedMenuKeyboardItem:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    position: relative;
+    transform: scale(1.1);
+    opacity: 1;
+
+
+}
+.selectedSearchCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    position: relative;
+    transform: scale(1.1);
+    opacity: 1;
+
+
+}
+.selectedPopularSearchCard:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    position: relative;
+    transform: scale(1.1);
+    opacity: 1;
+
+}
+
+.selectedQR:focus-within {
+    transition: opacity 75ms linear 60ms, transform 75ms ease-in-out 50ms; 
+    border: 5px solid rgb(49, 85, 107);
+    position: relative;
+    transform: scale(1.1);
+    opacity: 1;
+
+}
+
+.focusedNone {
+    display: none;
+}
+
+
+.clock {
+    height: 20px;
+    margin-right: 7px;
+}
+
+
+
+
+
+.emphasisCard {
+    width: 350px;
+    height: 460px;
+    background-size: cover;
+    margin-top: 2%;
+    margin-right: 8%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+
+}
+
+.selectedContent {
+	background-color: #454545;
+    color: #ffffff;
+    font-size: 0.8rem;
+    width: 90px;
+    margin: auto 5px;
+    height: 40px;
+    min-width: 90px;
+}
+
+.selectedContent:nth-child(1) {
+    margin-left: 5%;
+    }
+
+    .marginToScrolling {
+        min-width: 1300px;
+        width: 1300px;
+        height: 300px;
+    }
+
+    .marginToScrolling2 {
+        min-width: 1300px;
+        width: 1300px;
+        height: 700px;
+    }
+
+    .marginToScrolling4{
+        width: 200px;
+        height: 100%;
+    }
+
+    .marginToScrolling5{
+        width: 200px;
+        height: 100%;
+        padding: 0px 200px;
+    }
+
+    .marginToScrolling3{
+        width: 100%;
+        height: 900px;
+        padding: 400px 0px;
+    }
+
+
+    /* pagina channels e movies */
+    .marginToScrolling4{
+        width: 100%;
+        height: 500px;
+    }
+
+    .marginToScrolling6 {
+        min-width: 600px;
+        width: 600px;
+        height: 300px;
+    }
+
+    .navigationNone {
+        display: none;
+    }

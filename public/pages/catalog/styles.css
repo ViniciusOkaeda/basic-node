@@ -1,0 +1,285 @@
+
+.containerDestaque {
+    width: 1920px;
+    height: 900px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: top center;    
+}
+
+
+.bannerInfo {
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    padding-top: 160px;
+}
+
+.bannerInfoImgLogo {
+    margin-left: 6%;
+}
+
+.genresAndSeasonAndDuration {
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.genres {
+    width: auto;
+    padding-right: 20px;
+}
+
+.season {
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.duration {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.genresAndSeason h6 {
+    text-shadow: 2px 2px rgba(94, 94, 94, 0.3);
+}
+
+.bannerInfoTitle {
+    margin-left: 6%;
+}
+
+.bannerInfoTitle h1{
+    margin-left: 30px;
+}
+
+.titleInfoAndRating {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.bannerInfoTitle h4 {
+    margin-left: 30px;
+    word-wrap: break-word;
+    max-width: 700px;
+    text-align:justify;
+}
+
+.bannerRatingButton {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerRating {
+    height: 55px;
+    width: 65px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+}
+
+.bannerRating h2 {
+    text-align: center;
+    margin-top: 8px;
+    width: 100%;
+    height: 100%;
+    font-size: 2.3rem;
+
+}
+
+.bannerRating h3 {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.bannerButton {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.bannerButton button {
+    width: 260px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+.containerCategories {
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+
+.containerCategories:nth-child(1) {
+    margin-top: -200px;
+    z-index: 3;
+}
+
+.cardTitle {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.cardTitle h2 {
+    padding-left: 150px;
+}
+
+.cardMore {
+    width: 95%;
+    margin-left: 150px;
+    height: 340px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.cardFlex {
+    width: 100%;
+    height: 380px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    color: rgba(0,0,0,0);
+    overflow-x: auto;
+}
+
+
+
+.cardFlex::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .cardFlex {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+
+
+/*
+
+.cardButton:nth-child(1) {
+padding-left: 15%;
+}
+*/
+
+
+
+.cardsInfo {
+    width: 250px;
+    margin: 20px 5px 0px 5px;
+    flex-shrink: 0;
+
+    }
+    
+    .cardsInfo button{
+        width: 250px;
+        height: 330px;
+
+        
+    }
+
+.cardsInfo:nth-child(1) {
+    margin-left: 150px;
+}
+
+
+
+
+
+.cardsInfoDescription {
+    width: 90%;
+    height: 340px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.focusedCardContent {
+    width: 80%;
+    height: 100px;
+    display: flex;
+}
+
+.focusedCardTitle {
+    width: auto;
+    margin-right: 30px;
+    height: 100%;
+}
+
+.focusedCardEpisode {
+    width: auto;
+    padding: 0px 35px 0px 10px;
+    height: 100%;
+}
+
+.focusedCardRating {
+    width: 55px;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: -5px;
+}
+
+.focusedCardRating h3 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1.7rem;
+}
+
+.focusedCardContent2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.focusedCardLogo {
+    width: 200px;
+    margin-top: -30px;
+    margin-right: 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.focusedCardDuration {
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.focusedCardStart {
+    width: 500px;
+    height: 100%;
+}
+
+.focusedCardDescription {
+    width: 100%;
+    height: 140px;
+}
+
+.focusedCardDescription h4 {
+    height: 140px;
+    word-wrap: break-word;
+
+}

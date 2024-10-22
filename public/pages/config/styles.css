@@ -1,0 +1,192 @@
+.configContainer{
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    display: flex;
+}
+
+.configOptionsContainer {
+    width: 576px;
+    height: 100%;
+}
+
+.configHeader {
+    width: 80%;
+    height: 10%;
+    margin: auto;
+}
+.configHeader h1{
+text-align: center;
+padding-top: 30px;
+}
+
+.configContent {
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.configOptionsContent {
+width: 95%;
+height: 672px;
+padding-top: 10%;
+padding-left: 5%;
+margin:  0px auto;
+border-right:2px solid rgb(65, 65, 65);
+}
+
+.optionsButtonColumn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.optionsButton {
+    width: 80%;
+    height: 90px;
+    font-size: 1.8rem ;
+    margin: 10px auto 10px auto;
+    background-color: rgba(43, 43, 43, 0.7);
+}
+
+
+.configShowOptionsContent {
+    width: 1244px;
+    height: 90%;
+    margin-top: 8%;
+    display: block;
+}
+
+.focusedOptionsHeader {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.focusedOptionsHeader h2 {
+    margin-left: 50px;
+}
+
+.focusedQrLoginContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.focusedQrLoginDescription {
+    width: 50%;
+    height: auto;
+}
+
+.focusedQrLoginDescription h4 {
+    width: 85%;
+    margin: 10px auto;
+    font-weight: 100;
+    text-align: justify;
+    padding: 10px auto;
+}
+
+.focusedQrLoginForm {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.focusedQrLoginForm button{
+    width: 85%;
+    margin: 10px auto;
+    background-color: rgba(43, 43, 43, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+
+}
+.focusedQrLoginForm input{
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin: 20px auto;
+    padding: 4px 16px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+    color: #F2F2F2;
+    background: #333333;
+    border: none;
+}
+
+.qrResponseContainer{
+    width: 80%;
+    margin: auto;
+    font-size: 1.6rem;
+    min-height: 50px;
+    color: #F2F2F2;
+}
+
+.test {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+.test2 {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(102, 0, 255);
+}
+
+.channelInfoList {
+    width: 100%;
+    height: 885px;
+    display: flex;
+    overflow: auto;
+    position: relative;
+    flex-wrap: wrap;
+
+    color: rgba(0, 0, 0, 0);
+}
+
+.channelInfoList::-webkit-scrollbar {
+    display: none;
+  }
+
+.channelInfoList {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .cardsChannelInfo {
+    width: auto;
+    max-width: 220px;
+    min-width: 220px;
+    margin: 10px 0px 0px 20px;
+    flex-shrink: 0;
+
+
+    }
+    
+    .cardsChannelInfo button{
+        width: 220px;
+        height: 100px;
+        scroll-margin-left: 100px;
+        display: flex;
+        background-color: rgba(43, 43, 43, 0.7);
+    }
+
+.cardChannelLogo {
+    width: 80%;
+    height: 100%;
+}
+
+.cardChannelFavorite {
+    width: 20%;
+    height: 100%;
+
+}
+
+.cardChannelIcon {
+    width: 50%;
+    margin: 10px auto auto auto;
+}

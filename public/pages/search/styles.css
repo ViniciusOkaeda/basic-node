@@ -1,0 +1,356 @@
+.generalContainer {
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+}
+
+.textAndKeyboardContainer {
+    width: 576px;
+    min-width: 200px;
+    min-height: 200px;
+    padding-left: 6%;
+    height: 1080px;
+}
+
+.textArea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+textarea {
+    width: 80%;
+    height: 60px;
+    resize: none;
+    padding: .5rem;
+    font-size: 2.4rem;
+    color: #ffffff;
+    outline: none;
+    margin-top: 30px;
+    background-color: rgba(43, 43, 43, 0);
+    border: none;
+    border-radius: .5rem;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.buttonStyle {
+    background-color: rgba(43, 43, 43, 0.9);
+    border: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .3rem;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: .5rem;
+}.delete,
+.space {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.delete { 
+    width: 210px; 
+}
+.space { 
+    width: 210px; 
+}
+.clear { width: 440px}
+
+
+.keyboardImage {
+    width: 45px;
+    margin-left: 5px;
+}
+
+/*----------------- default css --------------------*/
+
+.showEventsContainer {
+    width: 1344px;
+    min-width: 70%;
+    height: 1080px;
+    overflow:hidden;
+    color: rgba(43, 43, 43, 0);
+
+}
+
+.eventsHeader {
+width: 95%;
+height: 100px;
+display: flex;
+align-items: center;
+margin: auto;
+}
+
+.eventsFocused {
+width: 95%;
+height: auto;
+position: relative;
+padding: 10px 0px 20px 0px;
+margin: auto;
+}
+
+.channelInfoList {
+    width: 100%;
+    height: auto;
+    max-height: 650px;
+    display: flex;
+    position: relative;
+    overflow-x: auto;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0);
+}
+
+.channelInfoList::-webkit-scrollbar {
+    display: none;
+}
+.channelInfoList {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/*---------------- css to Popular Content */
+
+.eventsShowPopular {
+    width: 95%;
+    height: auto;
+    padding-bottom: 700px;
+    margin: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    color: rgba(43, 43, 43, 0);
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.eventsShowPopular::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .eventsShowPopular {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+.popularContainer {
+    width: 190px;
+    margin: 5px;
+    height: 240px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(43, 43, 43, 0.7);
+}
+
+.popularButtonShow {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.popularImageShow {
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.focusedEventImage {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0%;
+    z-index: -2;
+}
+
+.focusedImageColor {
+    width: 1920px;
+    height: 1080px;
+    top: 0%;
+    background-color: rgba(113, 113, 113, 0.2);
+    position: absolute;
+    z-index: -1;
+}
+
+.focusedImageInfo {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.searchDetailContainer {
+    width: 100%;
+    height: 290px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(43, 43, 43, 0.4);
+
+}
+
+.searchHeaderContent {
+width: 100%;
+height: 30%;
+display: flex;
+align-items: center;
+}
+
+.initialInfoLogo {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.infoChannelLogo {
+    width: 120px;
+    object-fit: contain;
+}
+
+
+.infoPopular {
+    width: auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.infoRating {
+    width: auto;
+    min-width: 45px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.searchDescriptionContent {
+    width: 95%;
+    height: auto;
+    padding: 10px 0px 10px 20px;
+}
+
+.searchMoreContent {
+    width: 100%;
+    height: 25%;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.max1 {
+    max-height: 620px;
+}
+
+.max2 {
+    max-height: 920px;
+}
+
+
+/*---------------- css to Search Content */
+
+.searchInfoContainer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.searchInfoTitle {
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.searchInfoTitle h2 {
+    padding-left: 100px;
+}
+
+.searchInfoList {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    overflow-x: auto;
+    color: rgba(43, 43, 43, 0);
+}
+
+.searchInfoList::-webkit-scrollbar {
+    display: none;
+  }
+
+.searchInfoList {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+.searchInfo1 {
+    width: auto;
+    width: 120px;
+    margin: 0px 10px 0px 10px;
+    flex-shrink: 0;
+}     
+.searchInfo1 button{
+    width: 120px;
+    height: 120px;
+    scroll-margin-left: 100px;
+    background-color: rgba(43, 43, 43, 0.7);   
+}
+.searchInfo1:nth-child(1) {
+    margin-left: 100px;
+}
+
+.searchInfo1:nth-last-child(1) {
+    margin-right: 1800px;
+}
+
+
+.searchInfo2 {
+    width: auto;
+    width: 190px;
+    margin: 0px 10px 0px 10px;
+    flex-shrink: 0;
+
+}
+
+.searchInfo2 button{
+    width: 190px;
+    height: 240px;
+    scroll-margin-left: 100px;    
+}
+
+.searchInfo2:nth-child(1) {
+    margin-left: 100px;
+}
+
+.searchInfo2:nth-last-child(1) {
+    margin-right: 1800px;
+}
